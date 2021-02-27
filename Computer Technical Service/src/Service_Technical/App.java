@@ -1,5 +1,9 @@
 package Service_Technical;
 
+import Utils.Techincal;
+import Utils.Client;
+import Utils.Computers;
+
 public class App {
     public static void main(String[] args) {
 
@@ -45,25 +49,4 @@ public class App {
         System.out.println(techincal_admin.phone_tech);
 
     }
-}
-
-
-class Client {
-    String name_client;
-    String id_client;
-    String phone_client;
-    String direction;
-}
-
-class Techincal{
-    String name_tech;
-    String id_tech;
-    String phone_tech;
-}
-
-class Computers{
-    String tip_compu;
-    String mark;
-    String Details;
-    double repair_price;
 }
