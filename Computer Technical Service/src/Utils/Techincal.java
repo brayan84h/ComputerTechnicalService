@@ -1,5 +1,7 @@
 package Utils;
 
+import Utils.*;
+
 public class Techincal {
 
     public String name_tech;
