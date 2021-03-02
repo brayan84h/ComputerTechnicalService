@@ -27,11 +27,7 @@ public class App {
 
         //CREAMOS EL TECNICO
 
-        Techincal techincal_admin = new Techincal();
-        techincal_admin.id_tech="9875334243153";
-        techincal_admin.name_tech="Roberto Padilla";
-        techincal_admin.phone_tech="2025-5454";
-
+        Techincal techincal_admin = new Techincal("Roberto Padilla","9875334243153","2025-5454");
 
         System.out.println("Accediendo directamente a la lista por get()");
         System.out.println(client1.Computers.get(0).tip_compu);
